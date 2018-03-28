@@ -1,0 +1,73 @@
+###############################################################################
+#
+# Steps needed to make git svn info return the correct information
+# I am using "git version 2.8.4.windows.1" under Windows 7
+# I was using "git version 2.7.0" under CYGWIN_NT-6.1 2.4.1(0.293/5/3) i686
+#
+###############################################################################
+#
+# Based on the idea from  http://trac.parrot.org/parrot/wiki/git-svn-tutorial
+#
+###############################################################################
+
+
+# Step 1: Record the result of the "git log" command.
+git log --grep="^git-svn-id: " --first-parent -1
+# Git Log message begins
+commit 893a81170c91619eea13b7574b6677a23edfe4f6 (HEAD -> master, pch_fixes/master, origin/master)
+Author: pecanh <pecanh@2a5c6006-c6dd-42ca-98ab-0921f2732cef>
+Date:   Fri Mar 23 00:40:30 2018 +0000
+
+    * CodeSnippets - Apply modified patches by Miguel Gimenez and bluehazzard
+        Adds DnD to projectmanagerui, removes it from the plugin, and fixes asserts
+
+
+    git-svn-id: https://svn.code.sf.net/p/codeblocks/code/trunk@11345 2a5c6006-c6dd-42ca-98ab-0921f2732cef
+# Git Log message ends
+
+# Step 2: Verify svn configuration
+# Step 2A: Check that protocal matches that in the above step (https, http, or svn).
+git config svn-remote.svn.url
+# If the above command returns blank you need to do the next two git config commands.
+# Remember to fix the protocal if it needs changed.
+# git config svn-remote.svn.url https://svn.code.sf.net/p/codeblocks/code
+# git config svn-remote.svn.fetch trunk:refs/remotes/svn/trunk
+
+
+# Step 3A: Run "git svn fetch" using rev from step 1 "trunk@11345"
+git svn fetch -r 11345
+
+# Step 3B: See what folder name is being used before trunk.
+git config svn-remote.svn.fetch
+# trunk:refs/remotes/svn/trunk
+
+# Step 3C: verify the folder exists
+ls .git/refs/remotes/svn
+# verify the file exists; not sure if the file always exists
+ls .git/refs/remotes/svn/trunk
+
+########
+### When doing inside git sub module the location of the trunk file differs.
+# $ ls -al ../.git/modules/codeblocks/refs/remotes/svn
+### Confirm trunk is a file and NOT a folder!
+########
+
+# Step 4: Use the commit hash from the git log message returned in the step 1 above.
+echo 893a81170c91619eea13b7574b6677a23edfe4f6 > .git/refs/remotes/svn/trunk
+
+########
+### When doing inside git sub module the location of the trunk file differs.
+# $ echo [HASH CODE FROM STEP 1] > ../.git/modules/codeblocks/refs/remotes/svn/trunk
+###
+########
+
+# Step 5: Re-Run svn fetch to update svn information; not sure if the "-r 11345" part is needed.
+git svn fetch -r 11345
+
+# Step 6: Run svn info to verify it is working
+git svn info
+
+# NOTE: Everytime I have used "git svn rebase" on Windows I seem to have to 
+#       redo these steps. Not sure if user error or bug in "Git for Windows".
+#       Or just "git svn rebase" is NOT safe to do on svn2git based repos.
+#       https://github.com/nirvdrum/svn2git
