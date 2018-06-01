@@ -18,14 +18,15 @@ git config --global --add credential.helper manager && \
 ./push_main_branch_most_git_repos.sh
 git config --global --unset credential.helper
 
-./prune_upstream_remote_most_git_repos.sh && \
+./check_and_prune_most_git_repos.sh # Uses a lot of memory
+
+##  ./prune_upstream_remote_most_git_repos.sh && \
 ./prune_most_git_repos.sh && \
 ./gc_most_git_repos.sh && \
 ./status_most_git_repos.sh
 
-./check_connect_most_git_repos.sh   # Uses a lot of memory
-./check_and_prune_most_git_repos.sh # Uses a lot of memory
-./check_strict_most_git_repos.sh    # Uses a lot of memory
+##  ./check_connect_most_git_repos.sh   # Uses a lot of memory
+##  ./check_strict_most_git_repos.sh    # Uses a lot of memory
 
 ./list_most_git_remotes.sh > list_most_git_remotes.txt
 ./list_most_git_default_urls.sh > list_most_git_default_urls.txt
