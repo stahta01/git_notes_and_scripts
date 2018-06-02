@@ -46,6 +46,7 @@ cd ../wxWidgets && pwd && \
   git remote remove wxpr && \
   git fetch --all --prune && \
   git remote add wxpr https://github.com/stahta01/wxWidgets_PR.git && \
+  git branch --set-upstream-to=wxpr/staging staging && \
 #cd ../wxWidgets_2_8_branch && pwd && \#
 #  git remote remove wxpr && \#
 #  git fetch --all --prune && \#
@@ -54,6 +55,7 @@ cd ../wxWidgets_3_0_branch && pwd && \
   git remote remove wxpr && \
   git fetch --all --prune && \
   git remote add wxpr https://github.com/stahta01/wxWidgets_PR.git && \
+  git branch --set-upstream-to=wxpr/staging3.0 staging3.0 && \
 cd ../wxTortoiseGit && pwd && \
   git remote remove upstream && \
   git fetch --all --prune && \
