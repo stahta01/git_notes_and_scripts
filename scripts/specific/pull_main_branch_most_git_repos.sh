@@ -27,7 +27,6 @@ cd ../wxWidgets_PR && pwd && \
 cd ../wxWidgets && pwd && \
   git checkout master && git pull wxpr master && \
 cd ../wxWidgets_3_0_branch && pwd && \
-  git checkout WX_3_0_3_BRANCH && git pull wxpr WX_3_0_3_BRANCH && \
   git checkout WX_3_0_BRANCH && git pull wxpr WX_3_0_BRANCH && \
 cd ../wxTortoiseGit && pwd && \
   git checkout master && git pull upstream master 
