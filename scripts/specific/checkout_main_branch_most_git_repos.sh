@@ -16,8 +16,6 @@ cd ../wxwidgets_build_scripts && pwd && \
 ### Repos without upstream remote above this comment
 cd ../codeblocks_https_metadata && pwd && \
   git checkout master && git pull && \
-cd ../codeblocks_r7456 && pwd && \
-  git checkout master && git pull && \
 ### Normal repos with upstream remote below this comment
 cd ../codeAdapt && pwd && \
   git checkout master && git pull && \

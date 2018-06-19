@@ -16,8 +16,6 @@ cd ../wxWidgets_sample_code && pwd && \
 ### Repos without upstream remote above this comment
 cd ../codeblocks_https_metadata && pwd && \
   git prune && \
-cd ../codeblocks_r7456 && pwd && \
-  git prune && \
 ### Normal repos with upstream remote below this comment
 cd ../codeAdapt && pwd && \
   git prune && \
