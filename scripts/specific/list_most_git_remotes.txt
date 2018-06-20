@@ -13,9 +13,6 @@ origin	https://github.com/stahta01/wxWidgets_sample_code.git (push)
 /c/Users/stahta01/devel/open_source_code/version_control/git_repos/codeblocks_https_metadata
 origin	https://github.com/stahta01/codeblocks_https_metadata.git (fetch)
 origin	https://stahta01@github.com/stahta01/codeblocks_https_metadata.git (push)
-/c/Users/stahta01/devel/open_source_code/version_control/git_repos/codeblocks_r7456
-eb_ide	https://github.com/stahta01/codeblocks_r7456.git (fetch)
-eb_ide	https://github.com/stahta01/codeblocks_r7456.git (push)
 /c/Users/stahta01/devel/open_source_code/version_control/git_repos/codeAdapt
 origin	https://github.com/stahta01/codeAdapt.git (fetch)
 origin	https://stahta01@github.com/stahta01/codeAdapt.git (push)
