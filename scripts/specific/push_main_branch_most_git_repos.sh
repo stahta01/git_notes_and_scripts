@@ -10,8 +10,6 @@ cd codeblocks_PCH_fixes && pwd && \
   git checkout master && git pull origin master && git push && \
 cd ../codeblocks_custom_build && pwd && \
   git checkout cb/master && git pull origin master && git push && \
-cd ../codeblocks_console && pwd && \
-  git checkout master && git pull origin master && git push && \
 cd ../codeblocks_msys2 && pwd && \
   git checkout master && git pull upstream master && git push && \
 cd ../codeblocks_obfuscated && pwd && \

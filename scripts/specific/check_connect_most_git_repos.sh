@@ -23,8 +23,6 @@ cd ../codeblocks_PCH_fixes && pwd && \
   git fsck --connectivity-only && \
 cd ../codeblocks_custom_build && pwd && \
   git fsck --connectivity-only && \
-cd ../codeblocks_console && pwd && \
-  git fsck --connectivity-only && \
 cd ../codeblocks_msys2 && pwd && \
   git fsck --connectivity-only && \
 cd ../codeblocks_obfuscated && pwd && \

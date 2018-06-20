@@ -23,8 +23,6 @@ cd ../codeblocks_PCH_fixes && pwd && \
   git fetch && git status -uno && \
 cd ../codeblocks_custom_build && pwd && \
   git fetch && git status -uno && \
-cd ../codeblocks_console && pwd && \
-  git fetch && git status -uno && \
 cd ../codeblocks_msys2 && pwd && \
   git fetch && git status -uno && \
 cd ../codeblocks_obfuscated && pwd && \

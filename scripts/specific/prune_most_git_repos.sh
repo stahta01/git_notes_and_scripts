@@ -23,8 +23,6 @@ cd ../codeblocks_PCH_fixes && pwd && \
   git prune && \
 cd ../codeblocks_custom_build && pwd && \
   git prune && \
-cd ../codeblocks_console && pwd && \
-  git prune && \
 cd ../codeblocks_msys2 && pwd && \
   git prune && \
 cd ../codeblocks_obfuscated && pwd && \

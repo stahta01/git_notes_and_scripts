@@ -14,10 +14,6 @@ cd ../codeblocks_custom_build && pwd && \
   git remote remove origin && \
   git fetch --all --prune && \
   git remote add origin https://github.com/stahta01/codeblocks_https_metadata.git && \
-cd ../codeblocks_console && pwd && \
-  git remote remove origin && \
-  git fetch --all --prune && \
-  git remote add origin https://github.com/stahta01/codeblocks_https_metadata.git && \
 cd ../codeblocks_msys2 && pwd && \
   git remote remove upstream && \
   git fetch --all --prune && \

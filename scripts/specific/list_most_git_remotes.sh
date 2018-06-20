@@ -23,8 +23,6 @@ cd ../codeblocks_PCH_fixes && pwd && \
   git remote -v && \
 cd ../codeblocks_custom_build && pwd && \
   git remote -v && \
-cd ../codeblocks_console && pwd && \
-  git remote -v && \
 cd ../codeblocks_msys2 && pwd && \
   git remote -v && \
 cd ../codeblocks_obfuscated && pwd && \

@@ -23,8 +23,6 @@ cd ../codeblocks_PCH_fixes && pwd && \
   git gc && \
 cd ../codeblocks_custom_build && pwd && \
   git gc && \
-cd ../codeblocks_console && pwd && \
-  git gc && \
 cd ../codeblocks_msys2 && pwd && \
   git gc && \
 cd ../codeblocks_obfuscated && pwd && \
