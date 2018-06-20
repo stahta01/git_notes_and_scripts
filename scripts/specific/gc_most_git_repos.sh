@@ -33,8 +33,6 @@ cd ../codeblocks_wizards && pwd && \
   git gc && \
 cd ../codeblocks_wxcode && pwd && \
   git gc && \
-cd ../wxpython-phoenix && pwd && \
-  git gc && \
 cd ../wxWidgets_PR && pwd && \
   git gc && \
 cd ../wxWidgets && pwd && \

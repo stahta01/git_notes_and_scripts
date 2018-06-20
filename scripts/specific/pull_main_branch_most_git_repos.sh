@@ -20,8 +20,6 @@ cd ../codeblocks_wizards && pwd && \
   git checkout master && git pull origin master && \
 cd ../codeblocks_wxcode && pwd && \
   git checkout master && git pull origin master && \
-cd ../wxpython-phoenix && pwd && \
-  git checkout master && git pull upstream master && \
 cd ../wxWidgets_PR && pwd && \
   git checkout master && git pull upstream master && \
 cd ../wxWidgets && pwd && \

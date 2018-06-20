@@ -33,8 +33,6 @@ cd ../codeblocks_wizards && pwd && \
   git fsck && git prune && \
 cd ../codeblocks_wxcode && pwd && \
   git fsck && git prune && \
-cd ../wxpython-phoenix && pwd && \
-  git fsck && git prune && \
 cd ../wxWidgets_PR && pwd && \
   git fsck && git prune && \
 cd ../wxWidgets && pwd && \

@@ -33,8 +33,6 @@ cd ../codeblocks_wizards && pwd && \
   git fetch && git status -uno && \
 cd ../codeblocks_wxcode && pwd && \
   git fetch && git status -uno && \
-cd ../wxpython-phoenix && pwd && \
-  git fetch && git status -uno && \
 cd ../wxWidgets_PR && pwd && \
   git fetch && git status -uno && \
 cd ../wxWidgets && pwd && \

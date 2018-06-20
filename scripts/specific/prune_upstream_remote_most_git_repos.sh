@@ -34,10 +34,6 @@ cd ../codeblocks_wxcode && pwd && \
   git remote remove origin && \
   git fetch --all --prune && \
   git remote add origin https://github.com/stahta01/codeblocks_https_metadata.git && \
-cd ../wxpython-phoenix && pwd && \
-  git remote remove upstream && \
-  git fetch --all --prune && \
-  git remote add upstream https://github.com/wxWidgets/Phoenix.git && \
 cd ../wxWidgets_PR && pwd && \
   git remote remove upstream && \
   git fetch --all --prune && \
