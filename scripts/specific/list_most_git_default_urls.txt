@@ -6,9 +6,6 @@ https://github.com/stahta01/codeblocks_PCH_fixes.git
 /c/Users/stahta01/devel/open_source_code/version_control/git_repos/codeblocks_custom_build
 custom
 https://github.com/stahta01/codeblocks_custom_build.git
-/c/Users/stahta01/devel/open_source_code/version_control/git_repos/codeblocks_console
-cb_console
-https://github.com/stahta01/codeblocks_console.git
 /c/Users/stahta01/devel/open_source_code/version_control/git_repos/codeblocks_msys2
 cb_msys2
 https://github.com/stahta01/codeblocks_msys2.git
@@ -18,10 +15,4 @@ https://github.com/stahta01/codeblocks_obfuscated.git
 /c/Users/stahta01/devel/open_source_code/version_control/git_repos/codeblocks_wizards
 cb_wiz
 https://github.com/stahta01/codeblocks_wizards.git
-/c/Users/stahta01/devel/open_source_code/version_control/git_repos/codeblocks_wxcode
-wxcode
-https://github.com/stahta01/codeblocks_wxcode.git
-/c/Users/stahta01/devel/open_source_code/version_control/git_repos/wxpython-phoenix
-origin
-https://github.com/stahta01/wxPythonPhoenix.git
 /c/Users/stahta01/devel/open_source_code/version_control/git_repos/wxWidgets_PR
