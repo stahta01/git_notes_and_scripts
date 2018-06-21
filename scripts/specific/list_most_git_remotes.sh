@@ -29,8 +29,6 @@ cd ../codeblocks_obfuscated && pwd && \
   git remote -v && \
 cd ../codeblocks_wizards && pwd && \
   git remote -v && \
-cd ../codeblocks_wxcode && pwd && \
-  git remote -v && \
 cd ../wxWidgets_PR && pwd && \
   git remote -v && \
 cd ../wxWidgets && pwd && \
@@ -38,8 +36,6 @@ cd ../wxWidgets && pwd && \
 #cd ../wxWidgets_2_8_branch && pwd && \#
 #  git remote -v && \#
 cd ../wxWidgets_3_0_branch && pwd && \
-  git remote -v && \
-cd ../wxTortoiseGit && pwd && \
   git remote -v && \
 ### Repos with only upstream remote below this comment
 cd ../passwordsafe_git_code && pwd && \

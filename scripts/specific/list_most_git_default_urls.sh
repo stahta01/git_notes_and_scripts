@@ -19,8 +19,6 @@ cd ../codeblocks_obfuscated && pwd && \
   git config remote.pushdefault && git remote get-url $(git config remote.pushdefault) && \
 cd ../codeblocks_wizards && pwd && \
   git config remote.pushdefault && git remote get-url $(git config remote.pushdefault) && \
-cd ../codeblocks_wxcode && pwd && \
-  git config remote.pushdefault && git remote get-url $(git config remote.pushdefault) && \
 cd ../wxWidgets_PR && pwd && \
   git config remote.pushdefault && git remote get-url $(git config remote.pushdefault) && \
 cd ../wxWidgets && pwd && \
@@ -28,8 +26,6 @@ cd ../wxWidgets && pwd && \
 #cd ../wxWidgets_2_8_branch && pwd && \#
 #  git config remote.pushdefault && git remote get-url $(git config remote.pushdefault) && \#
 cd ../wxWidgets_3_0_branch && pwd && \
-  git config remote.pushdefault && git remote get-url $(git config remote.pushdefault) && \
-cd ../wxTortoiseGit && pwd && \
   git config remote.pushdefault && git remote get-url $(git config remote.pushdefault) && \
 ### Repos with only upstream remote below this comment
 cd ../passwordsafe_git_code && pwd && \

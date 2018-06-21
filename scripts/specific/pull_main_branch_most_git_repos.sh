@@ -16,13 +16,9 @@ cd ../codeblocks_obfuscated && pwd && \
   git checkout master && git pull upstream master && \
 cd ../codeblocks_wizards && pwd && \
   git checkout master && git pull origin master && \
-cd ../codeblocks_wxcode && pwd && \
-  git checkout master && git pull origin master && \
 cd ../wxWidgets_PR && pwd && \
   git checkout master && git pull upstream master && \
 cd ../wxWidgets && pwd && \
   git checkout master && git pull wxpr master && \
 cd ../wxWidgets_3_0_branch && pwd && \
-  git checkout WX_3_0_BRANCH && git pull wxpr WX_3_0_BRANCH && \
-cd ../wxTortoiseGit && pwd && \
-  git checkout master && git pull upstream master 
+  git checkout WX_3_0_BRANCH && git pull wxpr WX_3_0_BRANCH
