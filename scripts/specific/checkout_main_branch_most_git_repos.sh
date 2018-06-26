@@ -27,8 +27,6 @@ cd ../codeblocks_msys2 && pwd && \
   git checkout master && git pull && \
 cd ../codeblocks_obfuscated && pwd && \
   git checkout master && git pull && \
-cd ../codeblocks_wizards && pwd && \
-  git checkout master && git pull && \
 cd ../wxWidgets_PR && pwd && \
   git checkout master && git pull && \
 cd ../wxWidgets && pwd && \

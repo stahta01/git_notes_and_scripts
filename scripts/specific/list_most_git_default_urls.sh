@@ -17,8 +17,6 @@ cd ../codeblocks_msys2 && pwd && \
   git config remote.pushdefault && git remote get-url $(git config remote.pushdefault) && \
 cd ../codeblocks_obfuscated && pwd && \
   git config remote.pushdefault && git remote get-url $(git config remote.pushdefault) && \
-cd ../codeblocks_wizards && pwd && \
-  git config remote.pushdefault && git remote get-url $(git config remote.pushdefault) && \
 cd ../wxWidgets_PR && pwd && \
   git config remote.pushdefault && git remote get-url $(git config remote.pushdefault) && \
 cd ../wxWidgets && pwd && \

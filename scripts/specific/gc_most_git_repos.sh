@@ -27,8 +27,6 @@ cd ../codeblocks_msys2 && pwd && \
   git gc && \
 cd ../codeblocks_obfuscated && pwd && \
   git gc && \
-cd ../codeblocks_wizards && pwd && \
-  git gc && \
 cd ../wxWidgets_PR && pwd && \
   git gc && \
 cd ../wxWidgets && pwd && \

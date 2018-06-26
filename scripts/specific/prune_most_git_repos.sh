@@ -27,8 +27,6 @@ cd ../codeblocks_msys2 && pwd && \
   git prune && \
 cd ../codeblocks_obfuscated && pwd && \
   git prune && \
-cd ../codeblocks_wizards && pwd && \
-  git prune && \
 cd ../wxWidgets_PR && pwd && \
   git prune && \
 cd ../wxWidgets && pwd && \

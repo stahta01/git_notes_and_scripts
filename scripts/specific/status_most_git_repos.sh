@@ -27,8 +27,6 @@ cd ../codeblocks_msys2 && pwd && \
   git fetch && git status -uno && \
 cd ../codeblocks_obfuscated && pwd && \
   git fetch && git status -uno && \
-cd ../codeblocks_wizards && pwd && \
-  git fetch && git status -uno && \
 cd ../wxWidgets_PR && pwd && \
   git fetch && git status -uno && \
 cd ../wxWidgets && pwd && \

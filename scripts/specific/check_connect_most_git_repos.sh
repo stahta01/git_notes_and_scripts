@@ -27,8 +27,6 @@ cd ../codeblocks_msys2 && pwd && \
   git fsck --connectivity-only && \
 cd ../codeblocks_obfuscated && pwd && \
   git fsck --connectivity-only && \
-cd ../codeblocks_wizards && pwd && \
-  git fsck --connectivity-only && \
 cd ../wxWidgets_PR && pwd && \
   git fsck --connectivity-only && \
 cd ../wxWidgets && pwd && \

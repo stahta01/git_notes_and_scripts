@@ -27,8 +27,6 @@ cd ../codeblocks_msys2 && pwd && \
   git remote -v && \
 cd ../codeblocks_obfuscated && pwd && \
   git remote -v && \
-cd ../codeblocks_wizards && pwd && \
-  git remote -v && \
 cd ../wxWidgets_PR && pwd && \
   git remote -v && \
 cd ../wxWidgets && pwd && \

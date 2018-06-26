@@ -22,10 +22,6 @@ cd ../codeblocks_obfuscated && pwd && \
   git remote remove upstream && \
   git fetch --all --prune && \
   git remote add upstream https://github.com/obfuscated/codeblocks_sf && \
-cd ../codeblocks_wizards && pwd && \
-  git remote remove origin && \
-  git fetch --all --prune && \
-  git remote add origin https://github.com/stahta01/codeblocks_https_metadata.git && \
 cd ../wxWidgets_PR && pwd && \
   git remote remove upstream && \
   git fetch --all --prune && \

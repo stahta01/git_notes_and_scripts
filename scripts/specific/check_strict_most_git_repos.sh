@@ -27,8 +27,6 @@ cd ../codeblocks_msys2 && pwd && \
   git fsck --strict && \
 cd ../codeblocks_obfuscated && pwd && \
   git fsck --strict && \
-cd ../codeblocks_wizards && pwd && \
-  git fsck --strict && \
 cd ../wxWidgets_PR && pwd && \
   git fsck --strict && \
 cd ../wxWidgets && pwd && \
