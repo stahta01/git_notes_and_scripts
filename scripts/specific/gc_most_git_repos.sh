@@ -17,15 +17,7 @@ cd ../wxWidgets_sample_code && pwd && \
 cd ../codeblocks_https_metadata && pwd && \
   git gc && \
 ### Normal repos with upstream remote below this comment
-cd ../codeAdapt && pwd && \
-  git gc && \
 cd ../codeblocks_PCH_fixes && pwd && \
-  git gc && \
-cd ../codeblocks_custom_build && pwd && \
-  git gc && \
-cd ../codeblocks_msys2 && pwd && \
-  git gc && \
-cd ../codeblocks_obfuscated && pwd && \
   git gc && \
 cd ../wxWidgets_PR && pwd && \
   git gc && \

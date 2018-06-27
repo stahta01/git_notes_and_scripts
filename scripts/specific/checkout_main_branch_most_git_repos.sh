@@ -17,15 +17,7 @@ cd ../wxwidgets_build_scripts && pwd && \
 cd ../codeblocks_https_metadata && pwd && \
   git checkout master && git pull && \
 ### Normal repos with upstream remote below this comment
-cd ../codeAdapt && pwd && \
-  git checkout master && git pull && \
 cd ../codeblocks_PCH_fixes && pwd && \
-  git checkout master && git pull && \
-cd ../codeblocks_custom_build && pwd && \
-  git checkout master && git pull && \
-cd ../codeblocks_msys2 && pwd && \
-  git checkout master && git pull && \
-cd ../codeblocks_obfuscated && pwd && \
   git checkout master && git pull && \
 cd ../wxWidgets_PR && pwd && \
   git checkout master && git pull && \

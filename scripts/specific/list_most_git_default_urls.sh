@@ -11,12 +11,6 @@ echo ""
 ### Normal repos with upstream remote below this comment
 cd codeblocks_PCH_fixes && pwd && \
   git config remote.pushdefault && git remote get-url $(git config remote.pushdefault) && \
-cd ../codeblocks_custom_build && pwd && \
-  git config remote.pushdefault && git remote get-url $(git config remote.pushdefault) && \
-cd ../codeblocks_msys2 && pwd && \
-  git config remote.pushdefault && git remote get-url $(git config remote.pushdefault) && \
-cd ../codeblocks_obfuscated && pwd && \
-  git config remote.pushdefault && git remote get-url $(git config remote.pushdefault) && \
 cd ../wxWidgets_PR && pwd && \
   git config remote.pushdefault && git remote get-url $(git config remote.pushdefault) && \
 cd ../wxWidgets && pwd && \

@@ -9,8 +9,4 @@ fi
 cd codeblocks_https_metadata && pwd && \
   git svn fetch  && \
 cd ../codeblocks_PCH_fixes && pwd && \
-  git svn fetch  && \
-cd ../codeblocks_custom_build && pwd && \
-  git svn fetch  && \
-cd ../codeblocks_msys2 && pwd && \
   git svn fetch

@@ -17,15 +17,7 @@ cd ../wxWidgets_sample_code && pwd && \
 cd ../codeblocks_https_metadata && pwd && \
   git fsck --connectivity-only && \
 ### Normal repos with upstream remote below this comment
-cd ../codeAdapt && pwd && \
-  git fsck --connectivity-only && \
 cd ../codeblocks_PCH_fixes && pwd && \
-  git fsck --connectivity-only && \
-cd ../codeblocks_custom_build && pwd && \
-  git fsck --connectivity-only && \
-cd ../codeblocks_msys2 && pwd && \
-  git fsck --connectivity-only && \
-cd ../codeblocks_obfuscated && pwd && \
   git fsck --connectivity-only && \
 cd ../wxWidgets_PR && pwd && \
   git fsck --connectivity-only && \

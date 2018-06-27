@@ -8,12 +8,6 @@ fi
 ### Normal repos with upstream remote below this comment
 cd codeblocks_PCH_fixes && pwd && \
   git checkout master && git pull origin master && \
-cd ../codeblocks_custom_build && pwd && \
-  git checkout cb/master && git pull origin master && \
-cd ../codeblocks_msys2 && pwd && \
-  git checkout master && git pull upstream master && \
-cd ../codeblocks_obfuscated && pwd && \
-  git checkout master && git pull upstream master && \
 cd ../wxWidgets_PR && pwd && \
   git checkout master && git pull upstream master && \
 cd ../wxWidgets && pwd && \
