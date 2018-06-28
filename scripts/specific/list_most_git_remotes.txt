@@ -13,36 +13,11 @@ origin	https://github.com/stahta01/wxWidgets_sample_code.git (push)
 /c/Users/stahta01/devel/open_source_code/version_control/git_repos/codeblocks_https_metadata
 origin	https://github.com/stahta01/codeblocks_https_metadata.git (fetch)
 origin	https://stahta01@github.com/stahta01/codeblocks_https_metadata.git (push)
-/c/Users/stahta01/devel/open_source_code/version_control/git_repos/codeAdapt
-origin	https://github.com/stahta01/codeAdapt.git (fetch)
-origin	https://stahta01@github.com/stahta01/codeAdapt.git (push)
-upstream	https://github.com/stahta01/codeblocks_https_metadata.git (fetch)
-upstream	https://github.com/stahta01/codeblocks_https_metadata.git (push)
 /c/Users/stahta01/devel/open_source_code/version_control/git_repos/codeblocks_PCH_fixes
 origin	https://github.com/stahta01/codeblocks_https_metadata.git (fetch)
 origin	https://github.com/stahta01/codeblocks_https_metadata.git (push)
 pch_fixes	https://github.com/stahta01/codeblocks_PCH_fixes.git (fetch)
 pch_fixes	https://stahta01@github.com/stahta01/codeblocks_PCH_fixes.git (push)
-/c/Users/stahta01/devel/open_source_code/version_control/git_repos/codeblocks_custom_build
-custom	https://github.com/stahta01/codeblocks_custom_build.git (fetch)
-custom	https://stahta01@github.com/stahta01/codeblocks_custom_build.git (push)
-origin	https://github.com/stahta01/codeblocks_https_metadata.git (fetch)
-origin	https://github.com/stahta01/codeblocks_https_metadata.git (push)
-/c/Users/stahta01/devel/open_source_code/version_control/git_repos/codeblocks_msys2
-cb_msys2	https://github.com/stahta01/codeblocks_msys2.git (fetch)
-cb_msys2	https://stahta01@github.com/stahta01/codeblocks_msys2.git (push)
-upstream	https://github.com/stahta01/codeblocks_https_metadata.git (fetch)
-upstream	https://github.com/stahta01/codeblocks_https_metadata.git (push)
-/c/Users/stahta01/devel/open_source_code/version_control/git_repos/codeblocks_obfuscated
-origin	https://github.com/stahta01/codeblocks_obfuscated.git (fetch)
-origin	https://stahta01@github.com/stahta01/codeblocks_obfuscated.git (push)
-upstream	https://github.com/obfuscated/codeblocks_sf (fetch)
-upstream	https://github.com/obfuscated/codeblocks_sf (push)
-/c/Users/stahta01/devel/open_source_code/version_control/git_repos/codeblocks_wizards
-cb_wiz	https://github.com/stahta01/codeblocks_wizards.git (fetch)
-cb_wiz	https://stahta01@github.com/stahta01/codeblocks_wizards.git (push)
-origin	https://github.com/stahta01/codeblocks_https_metadata.git (fetch)
-origin	https://github.com/stahta01/codeblocks_https_metadata.git (push)
 /c/Users/stahta01/devel/open_source_code/version_control/git_repos/wxWidgets_PR
 upstream	https://github.com/wxWidgets/wxWidgets.git (fetch)
 upstream	https://github.com/wxWidgets/wxWidgets.git (push)
