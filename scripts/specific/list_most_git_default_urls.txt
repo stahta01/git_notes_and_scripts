@@ -1,6 +1,9 @@
 git config remote.pushdefault && git remote get-url 
 
-/c/Users/stahta01/devel/open_source_code/version_control/git_repos/codeblocks_PCH_fixes
+/devel/open_source_code/version_control/git_repos/codeblocks_PCH_fixes
 pch_fixes
 https://github.com/stahta01/codeblocks_PCH_fixes.git
-/c/Users/stahta01/devel/open_source_code/version_control/git_repos/wxWidgets_PR
+/devel/open_source_code/version_control/git_repos/wxWidgets_PR
+/devel/open_source_code/version_control/git_repos/wxWidgets_PR
+/devel/open_source_code/version_control/git_repos/wxWidgets_PR
+/devel/open_source_code/version_control/git_repos/wxWidgets_PR

@@ -9,16 +9,16 @@ echo "git config remote.pushdefault && git remote get-url $(git config remote.pu
 echo ""
 
 ### Normal repos with upstream remote below this comment
-cd codeblocks_PCH_fixes && pwd && \
+cd codeblocks_PCH_fixes && _pwd=`pwd`;echo "${_pwd/$HOME/$_home}" && \
   git config remote.pushdefault && git remote get-url $(git config remote.pushdefault) && \
-cd ../wxWidgets_PR && pwd && \
+cd ../wxWidgets_PR && _pwd=`pwd`;echo "${_pwd/$HOME/$_home}" && \
   git config remote.pushdefault && git remote get-url $(git config remote.pushdefault) && \
-cd ../wxWidgets && pwd && \
+cd ../wxWidgets && _pwd=`pwd`;echo "${_pwd/$HOME/$_home}" && \
   git config remote.pushdefault && git remote get-url $(git config remote.pushdefault) && \
-#cd ../wxWidgets_2_8_branch && pwd && \#
+#cd ../wxWidgets_2_8_branch && _pwd=`pwd`;echo "${_pwd/$HOME/$_home}" && \#
 #  git config remote.pushdefault && git remote get-url $(git config remote.pushdefault) && \#
-cd ../wxWidgets_3_0_branch && pwd && \
+cd ../wxWidgets_3_0_branch && _pwd=`pwd`;echo "${_pwd/$HOME/$_home}" && \
   git config remote.pushdefault && git remote get-url $(git config remote.pushdefault) && \
 ### Repos with only upstream remote below this comment
-cd ../passwordsafe_git_code && pwd && \
+cd ../passwordsafe_git_code && _pwd=`pwd`;echo "${_pwd/$HOME/$_home}" && \
   git config remote.pushdefault && git remote get-url $(git config remote.pushdefault)
