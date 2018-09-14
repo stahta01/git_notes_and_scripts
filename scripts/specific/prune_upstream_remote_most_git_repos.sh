@@ -10,7 +10,7 @@ cd codeblocks_PCH_fixes && pwd && \
   git remote remove origin && \
   git fetch --all --prune && \
   git remote add origin https://github.com/stahta01/codeblocks_https_metadata.git && \
-  git branch --set-upstream-to=origin/master master && \
+  git fetch origin master && git branch --set-upstream-to=origin/master master && \
 cd ../wxWidgets_PR && pwd && \
   git remote remove upstream && \
   git fetch --all --prune && \
