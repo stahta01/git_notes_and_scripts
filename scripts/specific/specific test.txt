@@ -1,6 +1,6 @@
 git branch --list
 
-cd ../specific && git checkout testing && git status -uno
+cd ../specific && git checkout testing && git fetch && git status -uno
 
 ### Best order to test scripts
 
