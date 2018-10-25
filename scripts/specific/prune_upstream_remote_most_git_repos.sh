@@ -22,11 +22,11 @@ cd ../wxWidgets && pwd && \
   git remote add wxpr https://github.com/stahta01/wxWidgets_PR.git && \
   git fetch wxpr staging && \
   git branch --set-upstream-to=wxpr/staging staging && \
-  git fetch wxpr wxUniversal && \
+  git fetch wxpr wxUniversal && git checkout wxUniversal && \
   git branch --set-upstream-to=wxpr/wxUniversal wxUniversal && \
-  git fetch wxpr code/fwdDeclare && \
+  git fetch wxpr code/fwdDeclare && git checkout code/fwdDeclare && \
   git branch --set-upstream-to=wxpr/code/fwdDeclare code/fwdDeclare && \
-  git fetch wxpr code/nonPCH && \
+  git fetch wxpr code/nonPCH && git checkout code/nonPCH && \
   git branch --set-upstream-to=wxpr/code/nonPCH code/nonPCH && \
 #cd ../wxWidgets_2_8_branch && pwd && \#
 #  git remote remove wxpr && \#
