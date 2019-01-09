@@ -23,9 +23,9 @@ git config --global --unset credential.helper
 # if "git gc" has problems try "git repack" with options -d or -a
 
 ##  ./prune_upstream_remote_most_git_repos.sh && \
+./prune_most_git_repos.sh && \
 ./repack_most_git_repos.sh && \
 ./gc_most_git_repos.sh && \
-./prune_most_git_repos.sh && \
 ./status_most_git_repos.sh
 
 ##  ./check_connect_most_git_repos.sh   # Uses a lot of memory
