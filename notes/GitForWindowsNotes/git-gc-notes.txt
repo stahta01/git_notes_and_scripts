@@ -1,0 +1,31 @@
+git-gc-notes.txt
+
+https://git-scm.com/docs/git-gc
+
+Problem "git gc" locks up
+
+Does any of these complete?
+
+# Test steps
+# A
+git gc --keep-largest-pack --no-prune   
+# B
+git gc --keep-largest-pack              
+# C
+git gc --no-prune                       
+
+# Fix steps
+If A Fails no reason to do B and C just consider them to have failed
+If any of them fail then run "git fsck" followed by "git prune"
+
+If A or C fails run "git repack -d" after doing fsck and prune
+
+Repeat the A,B,C test steps after running fix steps.
+
+If they fail a second time though, with no changes in results, 
+  run "git repack" with options "-d", "-a", or "-ad"
+I am not sure which option fixes the issue; so, try them all in order or just do "-ad".
+
+If they fail a third time though run the steps in safe mode
+
+msconfig can be used to set reboot to safe mode
