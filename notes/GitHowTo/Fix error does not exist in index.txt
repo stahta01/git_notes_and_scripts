@@ -1,0 +1,4 @@
+# File names are case sensivtive on Windows can cause this error
+# Try deleting files and doing "git reset --hard" to fix, on windows,  before step below
+
+rm .git/index && git reset && git fsck && git status -uno
