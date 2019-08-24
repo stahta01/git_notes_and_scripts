@@ -35,4 +35,4 @@ git config --global --unset credential.helper
 git status -uno
 
 
-git fsck --connectivity-only && git prune && git fsck && git repack -d && git gc && git prune && exit
+git fsck --connectivity-only && git prune && git fsck && git repack -Ad && git gc && git prune && exit
