@@ -2,7 +2,7 @@ if [ -z "$HOMEDRIVE" ]
 then
   cd ~/devel/open_source_code/version_control/git_repos
 else
-  cd $HOMEDRIVE/Users/$USERNAME/devel/open_source_code/version_control/git_repos
+  cd $HOMEDRIVE/repos/git
 fi
 
 echo "git config remote.pushdefault && git remote get-url $(git config remote.pushdefault)"
