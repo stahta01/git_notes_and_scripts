@@ -1,38 +1,38 @@
-~/devel/open_source_code/version_control/git_repos/cb_misc
+/c/repos/git/cb_misc
 origin	https://github.com/stahta01/cb_misc.git (fetch)
 origin	https://stahta01@github.com/stahta01/cb_misc.git (push)
-~/devel/open_source_code/version_control/git_repos/cb_projects_for_wxWidgets
+/c/repos/git/cb_projects_for_wxWidgets
 origin	https://github.com/stahta01/cb_projects_for_wxWidgets.git (fetch)
 origin	https://stahta01@github.com/stahta01/cb_projects_for_wxWidgets.git (push)
-~/devel/open_source_code/version_control/git_repos/wxwidgets_build_scripts
+/c/repos/git/wxwidgets_build_scripts
 origin	https://github.com/stahta01/wxwidgets_build_scripts.git (fetch)
 origin	https://stahta01@github.com/stahta01/wxwidgets_build_scripts.git (push)
-~/devel/open_source_code/version_control/git_repos/wxWidgets_sample_code
+/c/repos/git/wxWidgets_sample_code
 origin	https://github.com/stahta01/wxWidgets_sample_code.git (fetch)
 origin	https://github.com/stahta01/wxWidgets_sample_code.git (push)
-~/devel/open_source_code/version_control/git_repos/codeblocks_https_metadata
+/c/repos/git/codeblocks_https_metadata
 origin	https://github.com/stahta01/codeblocks_https_metadata.git (fetch)
 origin	https://stahta01@github.com/stahta01/codeblocks_https_metadata.git (push)
-~/devel/open_source_code/version_control/git_repos/codeblocks_PCH_fixes
+/c/repos/git/codeblocks_PCH_fixes
 origin	https://github.com/stahta01/codeblocks_https_metadata.git (fetch)
 origin	https://github.com/stahta01/codeblocks_https_metadata.git (push)
 pch_fixes	https://github.com/stahta01/codeblocks_PCH_fixes.git (fetch)
 pch_fixes	https://stahta01@github.com/stahta01/codeblocks_PCH_fixes.git (push)
-~/devel/open_source_code/version_control/git_repos/wxWidgets_PR
+/c/repos/git/wxWidgets_PR
 upstream	https://github.com/wxWidgets/wxWidgets.git (fetch)
 upstream	https://github.com/wxWidgets/wxWidgets.git (push)
 wxpr	https://github.com/stahta01/wxWidgets_PR.git (fetch)
 wxpr	https://stahta01@github.com/stahta01/wxWidgets_PR.git (push)
-~/devel/open_source_code/version_control/git_repos/wxWidgets
+/c/repos/git/wxWidgets
 origin	https://github.com/stahta01/wxwidgets_master_fork.git (fetch)
 origin	https://stahta01@github.com/stahta01/wxwidgets_master_fork.git (push)
 wxpr	https://github.com/stahta01/wxWidgets_PR.git (fetch)
 wxpr	https://github.com/stahta01/wxWidgets_PR.git (push)
-~/devel/open_source_code/version_control/git_repos/wxWidgets_3_0_branch
+/c/repos/git/wxWidgets_3_0_branch
 origin	https://github.com/stahta01/wxWidgets_3_0_branch.git (fetch)
 origin	https://stahta01@github.com/stahta01/wxWidgets_3_0_branch.git (push)
 wxpr	https://github.com/stahta01/wxWidgets_PR.git (fetch)
 wxpr	https://github.com/stahta01/wxWidgets_PR.git (push)
-~/devel/open_source_code/version_control/git_repos/passwordsafe_git_code
+/c/repos/git/passwordsafe_git_code
 origin	https://github.com/pwsafe/pwsafe.git (fetch)
 origin	https://github.com/pwsafe/pwsafe.git (push)
