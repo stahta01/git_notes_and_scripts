@@ -1,0 +1,30 @@
+https://github.com/git-for-windows/git/issues
+
+* Which version of Git for Windows are you using? Is it 32-bit or 64-bit?
+git --version --build-options
+git version 2.20.1.windows.1
+cpu: x86_64
+built from commit: 7c9fbc07db0e2939b36095df45864b8cda19b64f
+sizeof-long: 4
+sizeof-size_t: 8
+
+* Which version of Windows are you running? Vista, 7, 8, 10? Is it 32-bit or 64-bit?
+cmd.exe /c ver
+Microsoft Windows [Version 6.1.7601]
+Win7 Home Premium 64 bit
+
+* What options did you set as part of the installation? Or did you choose the defaults?
+type "C:\Program Files\Git\etc\install-options.txt"
+Editor Option: Notepad++
+Custom Editor Path:
+Path Option: BashOnly
+SSH Option: OpenSSH
+CURL Option: OpenSSL
+CRLF Option: CRLFAlways
+Bash Terminal Option: MinTTY
+Performance Tweaks FSCache: Enabled
+Use Credential Manager: Disabled
+Enable Symlinks: Disabled
+
+* Any other interesting things about your environment that might be related  to the issue you're seeing?
+I have "Credential Manager" version 1.14.0 installed
