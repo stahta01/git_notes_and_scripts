@@ -6,8 +6,9 @@ cd ../specific && git checkout testing && git fetch && git status -uno
 
 ./checkout_main_branch_most_git_repos.sh && \
 ./status_most_git_repos.sh && \
-./pull_main_branch_most_git_repos.sh && \
-./svn_fetch_git_repos.sh          # SVN fetch tends to have errors that need fixed, sometimes
+./pull_main_branch_most_git_repos.sh
+
+## ./svn_fetch_git_repos.sh          # SVN fetch tends to have errors that need fixed, sometimes
 
 git config credential.helper
 #
