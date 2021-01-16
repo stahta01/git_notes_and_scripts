@@ -10,14 +10,8 @@ cd ../specific && git checkout testing && git fetch && git status -uno
 
 ## ./svn_fetch_git_repos.sh          # SVN fetch tends to have errors that need fixed, sometimes
 
-git config credential.helper
-#
-#   git config --system --unset credential.helper || git config --global --unset credential.helper
-#
-git config --global --unset credential.helper
-git config --global --add credential.helper manager && \
+ssh-add -t 600 # Forget passphrase in 10 minutes
 ./push_main_branch_most_git_repos.sh
-git config --global --unset credential.helper
 
 ##  ./check_and_prune_most_git_repos.sh # Uses a lot of memory
 

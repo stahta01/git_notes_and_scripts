@@ -1,6 +1,6 @@
 /c/repos/git/cb_misc
-origin	https://github.com/stahta01/cb_misc.git (fetch)
-origin	https://stahta01@github.com/stahta01/cb_misc.git (push)
+origin	git://github.com/stahta01/cb_misc.git (fetch)
+origin	git@github.com:stahta01/cb_misc.git (push)
 /c/repos/git/cb_projects_for_wxWidgets
 origin	https://github.com/stahta01/cb_projects_for_wxWidgets.git (fetch)
 origin	https://stahta01@github.com/stahta01/cb_projects_for_wxWidgets.git (push)
