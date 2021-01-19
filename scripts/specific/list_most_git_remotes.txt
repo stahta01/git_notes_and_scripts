@@ -21,16 +21,16 @@ pch_fixes	https://stahta01@github.com/stahta01/codeblocks_PCH_fixes.git (push)
 /c/repos/git/wxWidgets_PR
 upstream	https://github.com/wxWidgets/wxWidgets.git (fetch)
 upstream	https://github.com/wxWidgets/wxWidgets.git (push)
-wxpr	https://github.com/stahta01/wxWidgets_PR.git (fetch)
-wxpr	https://stahta01@github.com/stahta01/wxWidgets_PR.git (push)
+wxpr	git://github.com/stahta01/wxWidgets_PR.git (fetch)
+wxpr	git@github.com:stahta01/wxWidgets_PR.git (push)
 /c/repos/git/wxWidgets
-origin	https://github.com/stahta01/wxwidgets_master_fork.git (fetch)
-origin	https://stahta01@github.com/stahta01/wxwidgets_master_fork.git (push)
+origin	git://github.com/stahta01/wxwidgets_master_fork.git (fetch)
+origin	git@github.com:stahta01/wxwidgets_master_fork.git (push)
 wxpr	https://github.com/stahta01/wxWidgets_PR.git (fetch)
 wxpr	https://github.com/stahta01/wxWidgets_PR.git (push)
 /c/repos/git/wxWidgets_3_0_branch
-origin	https://github.com/stahta01/wxWidgets_3_0_branch.git (fetch)
-origin	https://stahta01@github.com/stahta01/wxWidgets_3_0_branch.git (push)
+origin	git://github.com/stahta01/wxWidgets_3_0_branch.git (fetch)
+origin	git@github.com:stahta01/wxWidgets_3_0_branch.git (push)
 wxpr	https://github.com/stahta01/wxWidgets_PR.git (fetch)
 wxpr	https://github.com/stahta01/wxWidgets_PR.git (push)
 /c/repos/git/passwordsafe_git_code
