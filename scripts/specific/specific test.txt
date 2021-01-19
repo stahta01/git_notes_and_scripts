@@ -10,8 +10,9 @@ cd ../specific && git checkout testing && git fetch && git status -uno
 
 ## ./svn_fetch_git_repos.sh          # SVN fetch tends to have errors that need fixed, sometimes
 
-ssh-add -t 600 # Forget passphrase in 10 minutes
-./push_main_branch_most_git_repos.sh
+eval $(ssh-agent) && ssh-add -t 6000 && \
+./push_main_branch_most_git_repos.sh ; \
+ssh-add -t 60 # Forget passphrase in 60 seconds
 
 ##  ./check_and_prune_most_git_repos.sh # Uses a lot of memory
 
